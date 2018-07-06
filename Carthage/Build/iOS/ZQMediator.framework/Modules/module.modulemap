@@ -1,0 +1,11 @@
+framework module ZQMediator {
+  umbrella header "ZQMediator.h"
+
+  export *
+  module * { export * }
+}
+
+module ZQMediator.Swift {
+    header "ZQMediator-Swift.h"
+    requires objc
+}
